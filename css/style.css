@@ -1,0 +1,22 @@
+.navbar-brand h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+
+}
+.card-img-overlay{
+    text-align:center;
+}
+.card-img-overlay h1{
+    font-family: 'Oswald', sans-serif;
+ 
+    
+}
+.card-img-overlay h2{
+    font-family: 'Oswald', sans-serif; 
+    text-decoration-line: overline;
+    font-weight: 700;
+}
+#descripcion h4{
+    text-align: center;
+}
+   
