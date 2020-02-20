@@ -1,1 +1,3 @@
-console.log("hola");
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })

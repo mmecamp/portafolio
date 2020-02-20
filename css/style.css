@@ -3,6 +3,7 @@
     font-weight: 700;
 
 }
+
 .card-img-overlay{
     text-align:center;
 }
@@ -19,6 +20,9 @@
 #descripcion h4{
     text-align: center;
 }
+#descripcion{
+    padding: 5%;
+}
 #experiencia h4{
     text-align: center;
 }
@@ -33,10 +37,42 @@
 }
 #experiencia{
     text-align: center;
+    padding: 5%;
 }
 .imagen i{
     width: 100%;
     height: 40px;
+}
+#trabajos{
+    background: lightskyblue;
+}
+#trabajos h2{
+    text-align: center;
+    padding: 3%;
+}
+#trabajos .container{
+    padding: 3%;
+}
+#formulario{
+   
+    padding: 5%;
+}
+#formulario .fondo{
+    background-color: #007bff;
+    margin-right: 53%;
+    font-family: inherit;
+    color: white;
+}
+
+footer{
+    background:#007bff;
+    margin-top: 5%;
+    padding: 3%;
+    text-align: center;
+}
+footer i{
+    padding-right: 10px;
+  
 }
 
    

@@ -9,6 +9,7 @@
         UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200&display=swap" rel="stylesheet">
+   
     <title>Mi Portafolio</title>
 </head>
    
@@ -26,16 +27,16 @@
                             <section class="menu">
                                 <ul class="navbar-nav mt-2 mt-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="#descripcion">Sobre mi <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Experiencia</a>
+                                        <a class="nav-link" href="#experiencia">Experiencia</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Trabajos</a>
+                                        <a class="nav-link" href="#trabajos">Trabajos</a>
                                         </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" >Contacto</a>
+                                        <a class="nav-link" href="#formulario" >Contacto</a>
                                     </li>
                                 </ul>
                             </section>    
@@ -49,7 +50,7 @@
     <section id="foto_principal" class="pt-3 mt-5">
         <div class="container">
             <section class="main row">
-                <article class="col-xs col-sm-6 col-md col-lg-12">
+                <article class="col-xs-6 col-sm-12 col-md-12 col-lg-12">
                     <div class="card bg-dark text-white">
                         <img src="../img/FB_IMG_foto_mia.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
@@ -102,17 +103,97 @@
                     </div>
                 </div>
     </section>
+    <div id="trabajos">
+        <div class="container">    
+            <h2>MIS ÚLTIMOS TRABAJOS<h2>
+                <section class="row">
+                    <article class="col-xs-12 col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="img-fluid" src="../img/proyecto1.png" alt="Meet&Coffe" data-toggle="tooltip" data-placement="top" title="1er proyecto"/>
+                        </div>               
+                    </article>
+        
+                    <article class="col-xs-12 col-md-4">
+                        <div class="card" style="width: 18rem;">    
+                            <img class="img-fluid" src="../img/proyecto2.png" alt="Iguana Page" data-toggle="tooltip" data-placement="top" title="2do proyecto"/>
+                        </div>     
+                    </article>
+        
+                    <article class="col-xs-12 col-md-4">
+                        <div class="card" style="width: 18rem;"> 
+                            <img class="img-fluid" src="../img/proyecto3.png" alt="Suricata" data-toggle="tooltip" data-placement="top" title="3er proyecto"/>
+                        </div> 
+                    </article>
+                </section>
+        </div>
+        <div class="container">    
+                <section class="row">
+                    <article class="col-xs-12 col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="img-fluid" src="../img/proyecto4.png" alt="Cuppon" data-toggle="tooltip" data-placement="top" title="4to proyecto"/>
+                        </div>               
+                    </article>
+        
+                    <article class="col-xs-12 col-md-4">
+                        <div class="card" style="width: 18rem;">    
+                            <img class="img-fluid" src="../img/proyecto5.png" alt="Ricomida" data-toggle="tooltip" data-placement="top" title="5to proyecto"/>
+                        </div>     
+                    </article>
+        
+                    <article class="col-xs-12 col-md-4">
+                    
+                    </article>
+                </section>
+        </div> 
+    
+    </div>
+    
+    <!-- --formulario-- -->
+
+    <div class="container" id="formulario">
+        <div class="fondo">
+            <h2>CONTACTO</h2>
+        </div>
+        
+        <form>
+            <div class="form-group row col-6">
+             
+                <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+              <div class="form-group row col-6">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+            <div class="form-group row col-6">
+                <input type="email" class="form-control" placeholder="correo electronico" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+            </div>  
+            <div class="form-group row col-6">
+                <label for="exampleFormControlTextarea1">Escribe tu pregunta acá</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    
+
 
     
-    <i class="fab fa-github"></i>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-twitter-square"></i>
-    
+
+
+
+<footer>
+    <i class="fab fa-github-square fa-3x"></i>
+    <i class="fab fa-linkedin fa-3x "></i>
+    <i class="fab fa-twitter-square fa-3x"></i>
+    <i class="fab fa-facebook-square fa-3x"></i>
+</footer>    
+   
 
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
