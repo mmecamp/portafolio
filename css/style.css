@@ -19,4 +19,24 @@
 #descripcion h4{
     text-align: center;
 }
+#experiencia h4{
+    text-align: center;
+}
+#experiencia svg{
+    width: 20%;
+    height: 20%;
+    
+   
+}
+#experiencia .card{
+    border: white;
+}
+#experiencia{
+    text-align: center;
+}
+.imagen i{
+    width: 100%;
+    height: 40px;
+}
+
    
