@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family:"Raleway";
+}
+nav{
+    text-align: center;
+}
+.bg-hero{
+    width: 100%;
+}
+.bg-hero img{
+    width: 100%
+
+}
+.informacion{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+span{
+    text-align:justify ;
+    padding: 2%;
+
+}
+.informacion div{
+    width: 40%;
+    display: inline-block;
+    text-align: justify;
+
+}
+.informacion section{
+    display: inline-block;
+    width: 40%;
+}
+.informacion section img{
+    width: 50%;
+}
+.caracteristicas{
+    text-align: center;
+    background: #2b2a2a;
+    padding: 4%;
+}
+.caracteristicas section{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+
+    
+}
+
+.caracteristicas section svg{
+    width: 50px;
+    height: 100px;
+    text-align: center;
+
+}
+.tipo-iguanas section{
+    display:inline-block;
+    text-align: center;
+   
+    
+}
+.caracteristicas section h3{
+    text-align: center;
+    width: 200px;
+}
+
+.tipo-iguanas section img{
+    width: 200px;
+    height: 126px;
+    padding: 10%;
+    margin: 10%;
+    
+
+}  
+.tipo-iguanas{
+    text-align: center;
+}

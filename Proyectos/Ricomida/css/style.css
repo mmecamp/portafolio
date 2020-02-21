@@ -1,0 +1,95 @@
+.navbar-brand{
+    font-family: 'Lobster Two', cursive;
+    width: 55%;
+    margin-left: 5%;
+    
+}
+.menu{
+    text-align: right;
+}
+.card-body{
+    font-family: 'Cabin', sans-serif;
+}
+.card-body button{
+    font-family: 'Cabin', sans-serif;
+}
+.card-body h2{
+    border-bottom: #000 solid 1px; 
+  
+
+
+   
+}
+.carousel-indicators{
+    bottom: -43px;
+}
+.carousel-indicators li{
+    background: #a3a3a3;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #707070;
+}
+.recetas{
+    margin: 5%;
+    font-family: 'Cabin', sans-serif;
+}
+.recetas h2{
+    text-align: left;
+    
+}
+
+.otras_recetas h2{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    
+    
+}
+
+.otras_recetas h5{
+    font-family: 'Cabin', sans-serif;
+    text-align: left;
+}
+.card-text small{
+    font-family: 'Cabin', sans-serif;
+    text-align: left;
+    font-size: medium;
+   
+}
+.card-body{
+    padding: 3%;
+    text-align: left;
+}
+.prefooter{
+    background: #dc3545;
+    text-align: center;
+    color: white;
+    padding:  10%;
+    margin: 0;
+}
+.prefooter h3{
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.prefooter p{
+    font-family: 'Lobster', sans-serif;
+}  
+.prefooter span{
+    font-family: 'Lobster', cursive;
+
+}
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    padding: 2%;
+    
+
+}
+

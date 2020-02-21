@@ -1,0 +1,64 @@
+.menu{
+
+    text-align:right ;
+    background:#e83e8c;
+    color:white;
+    
+}
+.logo img{
+    
+    text-align: justify;
+    margin: 2%;
+    top: 12px;
+    left: 119px;
+    width: 132px;
+    height: 53px;
+}
+.main article img{
+    width: 248px;
+    height: 132px;
+}
+h2{
+    text-align: center;
+    color:gray;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.card{
+    height: 500px;
+    margin-bottom:30px ;
+}
+.iconos svg{
+    width: 6%;
+    height:6%;
+}
+.icons-section{
+    background: #17a2b8;
+    color:white;
+    padding: 5%;
+    height: 170px;
+}
+.icons-section h3{
+    text-align: right;
+}
+
+.iconos{
+    text-align:left;
+    width: 150%;
+    
+}
+footer{
+    text-align: center;
+    background:#e83e8c;
+    padding: 5%;
+    height: 184px;
+    
+}
+.container-fluid-azul{
+    background: #17a2b8
+
+}
+.nav-item a{
+    color: white;
+}
+

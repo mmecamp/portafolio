@@ -1,0 +1,52 @@
+header{
+    margin-bottom: 5%
+}
+
+
+.menu{
+
+ 
+    background:#28a745;
+
+    color:white;
+    
+}
+
+.menu a{
+    color:white;
+}
+
+.menu img{
+    text-align: left;
+}
+.card-deck{
+    
+    margin-bottom: 5%;
+} 
+.card-text svg{
+    width: 3%;
+    height: 3%;
+}
+.formulario{
+    background:#28a745;
+    padding: 5%;
+  
+
+}
+.form-group h4{
+    color: white;
+    
+}
+
+
+footer{
+    text-align: center;
+}
+span{
+    color:#28a745;    
+    font-family:Roboto;
+    text-align: right;
+    
+
+    
+}

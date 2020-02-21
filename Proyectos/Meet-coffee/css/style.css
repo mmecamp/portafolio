@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family:sans-serif
+}
+
+body*{
+    margin: 0;
+    border:0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+}
+.icono{
+    width: 50px;
+    height: 20px;
+}
+.icono a svg{
+    fill: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+.redes_sociales{
+    text-align: center;
+
+}
+.redes_sociales svg{
+    width: 10%;
+}
+
+.oscuro{
+    background: #000f08;
+    color:#ffffff;
+}
+.oscuro a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.sweet-brown{
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+
+
+.hero-section{
+    text-align: right;
+    background-image:url(../imagenes/bg-hero.png);    
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    color:#ffffff; 
+    text-shadow: 2px 3px 2px #707070;  
+    padding: 50px 50px 250px 50px;
+}
+
+.charla-speaker, .charla-texto, .evento{
+    display:inline-block
+
+}
+
+.evento img{
+    width: 300px;
+    height: 200px;
+}
+
+section, footer{
+    margin-top: 75px;
+}
+
+footer{
+    padding: 50px;
+}
+.oscuro ul li{
+    display: inline-block;
+    padding: 2%;
+}
